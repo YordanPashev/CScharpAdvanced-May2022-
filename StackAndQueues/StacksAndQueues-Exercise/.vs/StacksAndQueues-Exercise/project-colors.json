@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "124b244d-22f5-4c43-b629-a4abf044c057": {
+      "ProjectGuid": "124b244d-22f5-4c43-b629-a4abf044c057",
+      "DisplayName": "P05.FashionBoutique",
+      "ColorIndex": 0
+    },
+    "f3ef07b1-98e2-422b-9d49-41d2684d0d48": {
+      "ProjectGuid": "f3ef07b1-98e2-422b-9d49-41d2684d0d48",
+      "DisplayName": "P04.FastFood",
+      "ColorIndex": 1
+    },
+    "684634ce-f930-46c1-921f-229eeda5b985": {
+      "ProjectGuid": "684634ce-f930-46c1-921f-229eeda5b985",
+      "DisplayName": "P01.BasicStackOperations",
+      "ColorIndex": 2
+    },
+    "0f324b0d-2f14-4f71-89e6-b2f80a9d8122": {
+      "ProjectGuid": "0f324b0d-2f14-4f71-89e6-b2f80a9d8122",
+      "DisplayName": "P06.SongsQueue",
+      "ColorIndex": 3
+    },
+    "46202d73-68a3-4c0f-843e-39edc89f11d7": {
+      "ProjectGuid": "46202d73-68a3-4c0f-843e-39edc89f11d7",
+      "DisplayName": "P07.TruckTour",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "0a6fa5ca-c862-4e2a-b461-e513b99b0bbc": {
+      "ProjectGuid": "0a6fa5ca-c862-4e2a-b461-e513b99b0bbc",
+      "DisplayName": "P08.BalancedParenthesis",
+      "ColorIndex": 5
+    },
+    "c6c2f3f5-42f6-407f-b02d-67e5bd92653e": {
+      "ProjectGuid": "c6c2f3f5-42f6-407f-b02d-67e5bd92653e",
+      "DisplayName": "P09.SimpleTextEditor",
+      "ColorIndex": 6
+    },
+    "eb61909c-da4e-46da-8783-1e05aae37077": {
+      "ProjectGuid": "eb61909c-da4e-46da-8783-1e05aae37077",
+      "DisplayName": "P10.Crossroads",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}
