@@ -45,7 +45,12 @@
       "ProjectGuid": "eb61909c-da4e-46da-8783-1e05aae37077",
       "DisplayName": "P10.Crossroads",
       "ColorIndex": 7
+    },
+    "5780de33-bc50-4228-b187-7e9d2c03e3fb": {
+      "ProjectGuid": "5780de33-bc50-4228-b187-7e9d2c03e3fb",
+      "DisplayName": "P11.KeyRevolver",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }

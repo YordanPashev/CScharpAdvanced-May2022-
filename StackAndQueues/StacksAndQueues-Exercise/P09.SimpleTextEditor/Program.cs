@@ -49,7 +49,6 @@ namespace P09.SimpleTextEditor
                     if (stack.Count > 0)
                     {
                         result.Append(stack.Peek());
-
                     }
                 }
             }

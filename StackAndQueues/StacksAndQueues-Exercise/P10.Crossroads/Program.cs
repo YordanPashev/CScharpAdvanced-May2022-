@@ -44,7 +44,6 @@ namespace P10.Crossroads
                         Console.WriteLine($"{currCar} was hit at {currCar[hitPoint]}.");
                         Environment.Exit(0);
                     }
-                    
                 }
                 else
                 {
