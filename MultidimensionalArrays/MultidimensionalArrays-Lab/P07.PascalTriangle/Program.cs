@@ -6,16 +6,32 @@ namespace P07.PascalTriangle
     {
         static void Main(string[] args)
         {
-            int[,] matrix = new int[3,3];
-            
-            matrix[0,0] = 1;
-            matrix[0,1] = 2;
-            matrix[0,2] = 3;
-            matrix[1,0] = 4;
-            matrix[1,1] = 5;
-            matrix[1,2] = 6;
+            ulong rows = ulong.Parse(Console.ReadLine());
 
-            Console.WriteLine(matrix[0, 1]);
+            ulong[][] jaggedArray = new ulong[rows][];
+            jaggedArray[0] = new ulong[1] { 1 };
+            Console.WriteLine(string.Join(" ", jaggedArray[0]));
+
+            for (ulong row = 1; row < rows; row++)
+            {
+                ulong numberOfCols = row;
+                jaggedArray[row] = new ulong[numberOfCols + 1];
+
+                for (ulong currCol = 0; currCol <= numberOfCols; currCol++)
+                {
+                    if (currCol == row || currCol == 0)
+                    {
+                        jaggedArray[row][currCol] = 1;
+                    }
+
+                    else
+                    {
+                        jaggedArray[row][currCol] = jaggedArray[row - 1][currCol] + jaggedArray[row - 1][currCol - 1];
+                    }
+                }
+
+                Console.WriteLine(string.Join(" ", jaggedArray[row]));
+            }
         }
     }
 }
