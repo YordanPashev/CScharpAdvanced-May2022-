@@ -1,0 +1,16 @@
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\bin\Debug\net5.0\P01.DiagonalDifference.exe
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\bin\Debug\net5.0\P01.DiagonalDifference.deps.json
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\bin\Debug\net5.0\P01.DiagonalDifference.runtimeconfig.json
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\bin\Debug\net5.0\P01.DiagonalDifference.runtimeconfig.dev.json
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\bin\Debug\net5.0\P01.DiagonalDifference.dll
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\bin\Debug\net5.0\ref\P01.DiagonalDifference.dll
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\bin\Debug\net5.0\P01.DiagonalDifference.pdb
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\obj\Debug\net5.0\P01.DiagonalDifference.csproj.AssemblyReference.cache
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\obj\Debug\net5.0\P01.DiagonalDifference.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\obj\Debug\net5.0\P01.DiagonalDifference.AssemblyInfoInputs.cache
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\obj\Debug\net5.0\P01.DiagonalDifference.AssemblyInfo.cs
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\obj\Debug\net5.0\P01.DiagonalDifference.csproj.CoreCompileInputs.cache
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\obj\Debug\net5.0\P01.DiagonalDifference.dll
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\obj\Debug\net5.0\ref\P01.DiagonalDifference.dll
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\obj\Debug\net5.0\P01.DiagonalDifference.pdb
+C:\Users\ppash\source\repos\MultidimensionalArrays-Exercise\P01.DiagonalDifference\obj\Debug\net5.0\P01.DiagonalDifference.genruntimeconfig.cache
