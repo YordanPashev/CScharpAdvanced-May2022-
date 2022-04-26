@@ -43,6 +43,7 @@ namespace P02.SquaresInMatrix
         static int GetCountOfSquearesOfEqualChars(char[,] matrix, int rows, int columns)
         {
             int countOfSquearesEqualChars = 0;
+
             for (int row = 0; row < rows; row++)
             {
                 if (row + 1 >= rows)
