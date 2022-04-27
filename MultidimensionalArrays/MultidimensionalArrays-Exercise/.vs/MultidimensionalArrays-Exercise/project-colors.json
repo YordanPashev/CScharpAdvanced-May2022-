@@ -20,7 +20,12 @@
       "ProjectGuid": "91d7fd2d-2137-4c4c-bc57-7d750cc85516",
       "DisplayName": "P04.MatrixShuffling",
       "ColorIndex": 3
+    },
+    "0c21073c-964c-4b93-89bb-9f03faf2bcd1": {
+      "ProjectGuid": "0c21073c-964c-4b93-89bb-9f03faf2bcd1",
+      "DisplayName": "P05.SnakeMoves",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

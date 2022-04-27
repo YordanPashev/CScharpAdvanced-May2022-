@@ -5,11 +5,13 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01.DiagonalDifference", "P01.DiagonalDifference\P01.DiagonalDifference.csproj", "{975EC857-6D29-4353-BC4D-227EB4D44E50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02.SquaresInMatrix", "P02.SquaresInMatrix\P02.SquaresInMatrix.csproj", "{56070502-5772-42D4-A9AF-767AA83DD036}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02.SquaresInMatrix", "P02.SquaresInMatrix\P02.SquaresInMatrix.csproj", "{56070502-5772-42D4-A9AF-767AA83DD036}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03.MaximalSum", "P03.MaximalSum\P03.MaximalSum.csproj", "{49A714C4-ECF1-4EAF-856A-FE3DAFE0AAEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03.MaximalSum", "P03.MaximalSum\P03.MaximalSum.csproj", "{49A714C4-ECF1-4EAF-856A-FE3DAFE0AAEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.MatrixShuffling", "P04.MatrixShuffling\P04.MatrixShuffling.csproj", "{91D7FD2D-2137-4C4C-BC57-7D750CC85516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.MatrixShuffling", "P04.MatrixShuffling\P04.MatrixShuffling.csproj", "{91D7FD2D-2137-4C4C-BC57-7D750CC85516}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05.SnakeMoves", "P05.SnakeMoves\P05.SnakeMoves.csproj", "{0C21073C-964C-4B93-89BB-9F03FAF2BCD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{91D7FD2D-2137-4C4C-BC57-7D750CC85516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91D7FD2D-2137-4C4C-BC57-7D750CC85516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91D7FD2D-2137-4C4C-BC57-7D750CC85516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C21073C-964C-4B93-89BB-9F03FAF2BCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C21073C-964C-4B93-89BB-9F03FAF2BCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C21073C-964C-4B93-89BB-9F03FAF2BCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C21073C-964C-4B93-89BB-9F03FAF2BCD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
