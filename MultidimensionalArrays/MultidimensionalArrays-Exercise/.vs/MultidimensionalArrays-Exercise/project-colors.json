@@ -25,7 +25,22 @@
       "ProjectGuid": "0c21073c-964c-4b93-89bb-9f03faf2bcd1",
       "DisplayName": "P05.SnakeMoves",
       "ColorIndex": 4
+    },
+    "548641c4-df5e-4856-b749-cedf79dd8fdc": {
+      "ProjectGuid": "548641c4-df5e-4856-b749-cedf79dd8fdc",
+      "DisplayName": "P06.JaggedArrayManipulator",
+      "ColorIndex": 5
+    },
+    "c7a0cffd-83e0-42b3-8519-047b5466fdcd": {
+      "ProjectGuid": "c7a0cffd-83e0-42b3-8519-047b5466fdcd",
+      "DisplayName": "P07.KnightGame",
+      "ColorIndex": 6
+    },
+    "75abb654-76cf-46b3-8d76-2949989a4adc": {
+      "ProjectGuid": "75abb654-76cf-46b3-8d76-2949989a4adc",
+      "DisplayName": "P08.Bombs",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 8
 }
