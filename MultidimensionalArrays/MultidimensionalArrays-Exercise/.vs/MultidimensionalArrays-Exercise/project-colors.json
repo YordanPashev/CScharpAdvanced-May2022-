@@ -40,7 +40,12 @@
       "ProjectGuid": "75abb654-76cf-46b3-8d76-2949989a4adc",
       "DisplayName": "P08.Bombs",
       "ColorIndex": 7
+    },
+    "6060895b-40c8-4906-b9ea-4a87ff4763d3": {
+      "ProjectGuid": "6060895b-40c8-4906-b9ea-4a87ff4763d3",
+      "DisplayName": "P09.Miner",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 9
 }

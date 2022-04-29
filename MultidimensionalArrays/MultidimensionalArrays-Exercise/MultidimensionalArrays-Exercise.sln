@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.MatrixShuffling", "P04.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05.SnakeMoves", "P05.SnakeMoves\P05.SnakeMoves.csproj", "{0C21073C-964C-4B93-89BB-9F03FAF2BCD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06.JaggedArrayManipulator", "P06.JaggedArrayManipulator\P06.JaggedArrayManipulator.csproj", "{548641C4-DF5E-4856-B749-CEDF79DD8FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06.JaggedArrayManipulator", "P06.JaggedArrayManipulator\P06.JaggedArrayManipulator.csproj", "{548641C4-DF5E-4856-B749-CEDF79DD8FDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07.KnightGame", "P07.KnightGame\P07.KnightGame.csproj", "{C7A0CFFD-83E0-42B3-8519-047B5466FDCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P07.KnightGame", "P07.KnightGame\P07.KnightGame.csproj", "{C7A0CFFD-83E0-42B3-8519-047B5466FDCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.Bombs", "P08.Bombs\P08.Bombs.csproj", "{75ABB654-76CF-46B3-8D76-2949989A4ADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P08.Bombs", "P08.Bombs\P08.Bombs.csproj", "{75ABB654-76CF-46B3-8D76-2949989A4ADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P09.Miner", "P09.Miner\P09.Miner.csproj", "{6060895B-40C8-4906-B9EA-4A87FF4763D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{75ABB654-76CF-46B3-8D76-2949989A4ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75ABB654-76CF-46B3-8D76-2949989A4ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75ABB654-76CF-46B3-8D76-2949989A4ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6060895B-40C8-4906-B9EA-4A87FF4763D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6060895B-40C8-4906-B9EA-4A87FF4763D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6060895B-40C8-4906-B9EA-4A87FF4763D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6060895B-40C8-4906-B9EA-4A87FF4763D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
