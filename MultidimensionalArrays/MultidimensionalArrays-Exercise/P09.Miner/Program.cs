@@ -72,7 +72,6 @@ namespace P09.Miner
                     }
                 }
 
-
                 else if (action == "left")
                 {
                     if (currPositionCol - 1 < 0)
@@ -94,6 +93,7 @@ namespace P09.Miner
                         coalCount--;
                     }
                 }
+
                 else if (action == "down")
                 {
                     if (currPositionRow + 1 > rows - 1)

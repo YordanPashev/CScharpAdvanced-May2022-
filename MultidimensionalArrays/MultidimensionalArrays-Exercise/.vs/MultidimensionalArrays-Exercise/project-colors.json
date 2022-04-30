@@ -45,7 +45,12 @@
       "ProjectGuid": "6060895b-40c8-4906-b9ea-4a87ff4763d3",
       "DisplayName": "P09.Miner",
       "ColorIndex": 8
+    },
+    "b67d7c8c-ddc4-4351-adc9-8cd00a8cbf9a": {
+      "ProjectGuid": "b67d7c8c-ddc4-4351-adc9-8cd00a8cbf9a",
+      "DisplayName": "P10.RadioactiveMutantVampireBunnies",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }
