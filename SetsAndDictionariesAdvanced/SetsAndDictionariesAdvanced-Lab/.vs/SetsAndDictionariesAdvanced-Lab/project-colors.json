@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1aea1d06-8d16-4fe3-8cf1-a3155889d708": {
+      "ProjectGuid": "1aea1d06-8d16-4fe3-8cf1-a3155889d708",
+      "DisplayName": "P01.CountSameValuesInArray",
+      "ColorIndex": 0
+    },
+    "dbbc2232-8f0c-44c9-83be-82d6737165a5": {
+      "ProjectGuid": "dbbc2232-8f0c-44c9-83be-82d6737165a5",
+      "DisplayName": "P02.AverageStudentGrades",
+      "ColorIndex": 1
+    },
+    "2ff176b2-6c31-4366-975b-aca5594cb318": {
+      "ProjectGuid": "2ff176b2-6c31-4366-975b-aca5594cb318",
+      "DisplayName": "P03.Largest3Numbers",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
