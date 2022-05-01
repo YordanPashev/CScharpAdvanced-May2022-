@@ -13,7 +13,7 @@ namespace P02.AverageStudentGrades
                     this.Name = name;
                     this.Grade = new List<decimal>();
                 }
-                public string Name { get; set; }
+                public string Name { get; set; }  
 
                 public List<decimal> Grade { get; set; }
             }
