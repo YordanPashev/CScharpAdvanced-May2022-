@@ -50,7 +50,12 @@
       "ProjectGuid": "5780de33-bc50-4228-b187-7e9d2c03e3fb",
       "DisplayName": "P11.KeyRevolver",
       "ColorIndex": 8
+    },
+    "78e3a39d-4efb-439e-888a-f3af95de2aec": {
+      "ProjectGuid": "78e3a39d-4efb-439e-888a-f3af95de2aec",
+      "DisplayName": "P12.CupsAndBottles",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }

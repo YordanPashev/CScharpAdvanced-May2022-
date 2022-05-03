@@ -15,7 +15,32 @@
       "ProjectGuid": "2ff176b2-6c31-4366-975b-aca5594cb318",
       "DisplayName": "P03.Largest3Numbers",
       "ColorIndex": 2
+    },
+    "48ba7a12-6698-4905-96fe-9f453336955a": {
+      "ProjectGuid": "48ba7a12-6698-4905-96fe-9f453336955a",
+      "DisplayName": "P04.ProductShop",
+      "ColorIndex": 3
+    },
+    "2722c82b-2df5-4903-ad6f-2ffc65fd2b16": {
+      "ProjectGuid": "2722c82b-2df5-4903-ad6f-2ffc65fd2b16",
+      "DisplayName": "P05.CitiesByContinentAndCountry",
+      "ColorIndex": 4
+    },
+    "abff1430-538b-4e8a-a231-e61433df9bc5": {
+      "ProjectGuid": "abff1430-538b-4e8a-a231-e61433df9bc5",
+      "DisplayName": "P06.RecordUniqueNames",
+      "ColorIndex": 5
+    },
+    "31e9781a-f938-4a4c-8a8c-5866b0bbe132": {
+      "ProjectGuid": "31e9781a-f938-4a4c-8a8c-5866b0bbe132",
+      "DisplayName": "P07.ParkingLot",
+      "ColorIndex": 6
+    },
+    "ba59946d-9741-4f42-9156-9b5eac74c233": {
+      "ProjectGuid": "ba59946d-9741-4f42-9156-9b5eac74c233",
+      "DisplayName": "P08.SoftUniParty",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 8
 }
