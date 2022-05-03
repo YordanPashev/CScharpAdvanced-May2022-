@@ -14,7 +14,7 @@ namespace P07.TheV_Logger
                 this.Following = 0;
             }
             public SortedSet<string> Followers { get; set; } = new SortedSet<string>();
-            public int Following  { get; set; }
+            public int Following { get; set; }
         }
         static void Main(string[] args)
         {
@@ -47,6 +47,9 @@ namespace P07.TheV_Logger
         private static void DisplayAllVlogersInfo(Dictionary<string, Vlogger> dataBase)
         {
             int place = 1;
+
+            Console.WriteLine($"The V-Logger has a total of {dataBase.Count} vloggers in its logs.");
+
             foreach (var vlogger in dataBase.OrderByDescending(v => v.Value.Followers.Count).ThenBy(v => v.Value.Following))
             {
                 if (place == 1)
@@ -57,19 +60,15 @@ namespace P07.TheV_Logger
                     {
                         Console.WriteLine($"*  {follower}");
                     }
+
+                    place++;
+                    continue;
                 }
 
-                else
-                {
-                    Console.WriteLine($"{place}. {vlogger.Key} : {vlogger.Value.Followers.Count} followers, {vlogger.Value.Following} following");
-                }
+                Console.WriteLine($"{place}. {vlogger.Key} : {vlogger.Value.Followers.Count} followers, {vlogger.Value.Following} following");
 
                 place++;
             }
-           
-
-
-
         }
 
         private static void TryToFollow(Dictionary<string, Vlogger> dataBase, string vlogger, string vloggerToFollow)
@@ -80,11 +79,8 @@ namespace P07.TheV_Logger
                 return;
             }
 
-            else
-            {
-                dataBase[vloggerToFollow].Followers.Add(vlogger);
-                dataBase[vlogger].Following++;
-            }
+            dataBase[vloggerToFollow].Followers.Add(vlogger);
+            dataBase[vlogger].Following++;
         }
 
         private static void TryToAddUserToDataBase(Dictionary<string, Vlogger> dataBase, string vlogger)
