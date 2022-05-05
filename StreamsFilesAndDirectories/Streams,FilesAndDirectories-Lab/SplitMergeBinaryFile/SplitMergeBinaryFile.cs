@@ -19,10 +19,12 @@
 
         public static void SplitBinaryFile(string sourceFilePath, string partOneFilePath, string partTwoFilePath)
         {
+
         }
 
         public static void MergeBinaryFiles(string partOneFilePath, string partTwoFilePath, string joinedFilePath)
         {
+
         }
     }
 }
