@@ -39,7 +39,6 @@
                     }
                 }
 
-                int numberOflineForLoop = 0;
                 if (firstTextLines.Count >= secondTextLines.Count)
                 {
                     for (int i = 0; i < firstTextLines.Count; i++)

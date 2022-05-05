@@ -14,6 +14,21 @@
 
         public static void GetFolderSize(string folderPath, string outputFilePath)
         {
+            decimal result = 0;
+            DirectoryInfo dirInfo = new DirectoryInfo(folderPath);
+            FileInfo[] fileInfos = dirInfo.GetFiles("*", SearchOption.AllDirectories);
+
+            foreach (FileInfo fileInfo in fileInfos)
+            {
+                result += fileInfo.Length;
+            }
+
+            result = result / 1024 / 1024;
+
+            using (StreamWriter writer = new StreamWriter(outputFilePath))
+            {
+                writer.Write(result);
+            }
         }
     }
 }
