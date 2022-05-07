@@ -4,7 +4,6 @@
     using System.Collections.Generic;
     using System.IO;
     using System.Linq;
-    using System.Text;
 
     public class EvenLines
     {
@@ -44,7 +43,6 @@
             replacedSymbols = string.Join(' ', reverseWords);
             return ReplaceSymbols(replacedSymbols);
         }
-
 
         private static string ReplaceSymbols(string line)
         {
