@@ -24,28 +24,39 @@
                     string line;
                     while ((line = reader.ReadLine()) != null)
                     {
-                        int currLineLettersCount = 0;
-                        int currLinePunctuationMarksCount = 0;
-                        foreach (char symbol in line)
-                        {
-                            if (char.IsLetter(symbol))
-                            {
-                                currLineLettersCount++;
-                                continue;
-                            }
+                        int[] letterAndPunctuationMarksCount = GetLetterAndPunctuationMarksCount(line);
 
-                            else if (char.IsWhiteSpace(symbol))
-                            {
-                                continue;
-                            }
+                        int currLineLettersCount = letterAndPunctuationMarksCount[0];
+                        int currLinePunctuationMarksCount = letterAndPunctuationMarksCount[1];
 
-                            currLinePunctuationMarksCount++;
-
-                        }
                         writer.WriteLine($"Line {lineCounter}: {line} ({currLineLettersCount})({currLinePunctuationMarksCount})");
                     }
                 }
             }
+        }
+
+        private static int[] GetLetterAndPunctuationMarksCount(string line)
+        {
+            int currLineLettersCount = 0;
+            int currLinePunctuationMarksCount = 0;
+
+            foreach (char symbol in line)
+            {
+                if (char.IsLetter(symbol))
+                {
+                    currLineLettersCount++;
+                    continue;
+                }
+
+                else if (char.IsWhiteSpace(symbol))
+                {
+                    continue;
+                }
+
+                currLinePunctuationMarksCount++;
+            }
+
+            return new int[] { currLineLettersCount, currLinePunctuationMarksCount };
         }
     }
 }
