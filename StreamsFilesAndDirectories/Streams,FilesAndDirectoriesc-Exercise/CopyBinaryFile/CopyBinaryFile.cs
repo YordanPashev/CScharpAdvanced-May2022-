@@ -12,7 +12,6 @@ namespace CopyBinaryFile
             string outputPath = @"..\..\..\copyMe-copy.png";
 
             CopyFile(inputPath, outputPath);
-
         }
 
         public static void CopyFile(string inputFilePath, string outputFilePath)
