@@ -48,12 +48,10 @@
                     continue;
                 }
 
-                else if (char.IsWhiteSpace(symbol))
+                else if (char.IsPunctuation(symbol))
                 {
-                    continue;
+                    currLinePunctuationMarksCount++;
                 }
-
-                currLinePunctuationMarksCount++;
             }
 
             return new int[] { currLineLettersCount, currLinePunctuationMarksCount };
