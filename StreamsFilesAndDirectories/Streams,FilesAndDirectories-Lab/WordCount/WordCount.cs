@@ -48,7 +48,7 @@
                     }
                 }
 
-                foreach (var currWord in words)
+                foreach (var currWord in words.OrderByDescending(w => w.Value))
                 {
                     writer.WriteLine($"{currWord.Key} - {currWord.Value}");
                 }
