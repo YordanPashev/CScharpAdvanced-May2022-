@@ -7,5 +7,7 @@
 
 [**3. Sets and DictionariesA dvanced**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/SetsAndDictionariesAdvanced)
 
+[**4. Streams, Files and Directoriesc**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/StreamsFilesAndDirectories)
+
 
 
