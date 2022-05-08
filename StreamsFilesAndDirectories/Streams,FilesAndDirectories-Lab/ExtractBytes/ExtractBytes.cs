@@ -19,20 +19,27 @@
 
         public static void ExtractBytesFromBinaryFile(string binaryFilePath, string bytesFilePath, string outputPath)
         {
-            using (StreamWriter writer = new StreamWriter(outputPath))
+            using (FileStream writer = new FileStream(outputPath, FileMode.Open))
             {
-
-                List<byte> bytesToCheck = Encoding.UTF8.GetBytes(bytesFilePath).ToList();
-                byte[] binaryFileBytes = Encoding.UTF8.GetBytes(binaryFilePath);
-
-                foreach (var byt in binaryFileBytes)
+                HashSet<byte> bytesToCheck = new HashSet<byte>();
+                using (StreamReader reader = new StreamReader(bytesFilePath))
                 {
-                    if (bytesToCheck.Contains(byt))
-                    {
-                        writer.Write(byt);
-                    }
+                    bytesToCheck = Encoding.UTF8.GetBytes(bytesFilePath).ToHashSet();
                 }
 
+                using (FileStream reader = new FileStream(binaryFilePath, FileMode.Open))
+                {
+                    byte[] arrayOfBytes = new byte[1];
+
+                    int currByte;
+                    while ((currByte = reader.Read(arrayOfBytes, 0, arrayOfBytes.Length)) != 0)
+                    {
+                        if (bytesToCheck.Contains(arrayOfBytes[0]))
+                        {
+                            writer.Write(arrayOfBytes, 0, arrayOfBytes.Length);
+                        }
+                    }
+                }
             }
         }
     }
