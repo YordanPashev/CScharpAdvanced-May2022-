@@ -27,9 +27,10 @@
             
             foreach (string filePath in files)
             {
-                string fileName = Path.GetFileName(filePath);
-                string extension   = Path.GetExtension(filePath);
-                double size = new FileInfo(filePath).Length / 1024.0;
+                FileInfo currFileInfo = new FileInfo(filePath);
+                string fileName = currFileInfo.Name;
+                string extension   = currFileInfo.Extension;
+                double size = currFileInfo.Length / 1024.0;
 
                 if (!filesInfo.ContainsKey(extension))
                 {
@@ -39,19 +40,19 @@
                 filesInfo[extension].Add(fileName, size);
             }
 
-            StringBuilder sb = new StringBuilder();
+            StringBuilder allFilesInfo = new StringBuilder();
 
             foreach (var ext in filesInfo.OrderByDescending(x => x.Value.Count).ThenBy(x => x.Key))
             {
-                sb.AppendLine(ext.Key);
+                allFilesInfo.AppendLine(ext.Key);
 
-                foreach (var file in ext.Value.OrderBy(x => x.Value))
+                foreach (var fileInfo in ext.Value.OrderBy(x => x.Value))
                 {
-                    sb.AppendLine($"--{file.Key} - {file.Value:F3}kb");   
+                    allFilesInfo.AppendLine($"--{fileInfo.Key} - {fileInfo.Value:F3}kb");   
                 }
             }
 
-            return sb.ToString().TrimEnd(); 
+            return allFilesInfo.ToString().TrimEnd(); 
         }
 
         public static void WriteReportToDesktop(string textContent, string reportFileName)
