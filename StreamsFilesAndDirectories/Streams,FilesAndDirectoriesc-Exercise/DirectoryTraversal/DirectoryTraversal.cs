@@ -11,7 +11,7 @@
         static void Main(string[] args)
         {
             string path = Console.ReadLine();
-            string reportFileName = @"C:\Users\..\Desktop\report.txt";
+            string reportFileName = "/report.txt";
 
             string reportContent = TraverseDirectory(path);
             Console.WriteLine(reportContent);
@@ -57,7 +57,7 @@
 
         public static void WriteReportToDesktop(string textContent, string reportFileName)
         {
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/report.txt";
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + reportFileName;
             File.WriteAllText(path, textContent);
 
         }
