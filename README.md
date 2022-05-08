@@ -5,7 +5,7 @@
 
 [**2. Multidimensional Arrays**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/MultidimensionalArrays)
 
-[**3. Sets and DictionariesA dvanced**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/SetsAndDictionariesAdvanced)
+[**3. Sets and Dictionaries Advanced**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/SetsAndDictionariesAdvanced)
 
 [**4. Streams, Files and Directories**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/StreamsFilesAndDirectories)
 
