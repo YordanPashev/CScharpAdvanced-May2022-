@@ -9,5 +9,5 @@
 
 [**4. Streams, Files and Directories**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/StreamsFilesAndDirectories)
 
-
+[**5. Functional Programming**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/FunctionalProgramming)
 
