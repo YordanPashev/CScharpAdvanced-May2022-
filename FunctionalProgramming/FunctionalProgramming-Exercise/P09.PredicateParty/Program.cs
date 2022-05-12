@@ -46,14 +46,7 @@ namespace P09.PredicateParty
 
                 else if (action == "Double")
                 {
-                    for (int i = 0; i < guests.Count; i++)
-                    {
-                        if (isApplyToGivenCriteria(guests[i], criteria, criteriaValue))
-                        {
-                            guests.Insert(i, guests[i]);
-                            i++;
-                        }
-                    }
+                    TryToDobuleNamesWithGivenLength(guests, isApplyToGivenCriteria, criteria, criteriaValue);
                 }
             }
 
@@ -65,6 +58,18 @@ namespace P09.PredicateParty
 
             Console.WriteLine(string.Join(", ", guests) + " are going to the party!");
 
+        }
+
+        private static void TryToDobuleNamesWithGivenLength(List<string> guests, Func<string, string, string, bool> isApplyToGivenCriteria, string criteria, string criteriaValue)
+        {
+            for (int i = 0; i < guests.Count; i++)
+            {
+                if (isApplyToGivenCriteria(guests[i], criteria, criteriaValue))
+                {
+                    guests.Insert(i, guests[i]);
+                    i++;
+                }
+            }
         }
     }
 }
