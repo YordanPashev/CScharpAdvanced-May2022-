@@ -6,17 +6,17 @@ namespace CarManufacturer
     {
         static void Main(string[] args)
         {
-            string make = Console.ReadLine();
-            string model = Console.ReadLine();
-            int year = int.Parse(Console.ReadLine());
-            double fuelQuantity = double.Parse(Console.ReadLine());
-            double fuelCOnsumption = double.Parse(Console.ReadLine());
+            Tire[] tires = new Tire[4]
+            {
+                new Tire(1, 1.25),
+                new Tire(1, 2.1),
+                new Tire(2, 0.5),
+                new Tire(2, 2.23)
+            };
 
-            Car firstCar = new Car();
-            Car secondCar = new Car(make, model, year);
-            Console.WriteLine(secondCar.WhoAmI());
-            Car thirdCar = new Car(make, model, year, fuelQuantity, fuelCOnsumption);
-            Console.WriteLine(thirdCar.WhoAmI());
+            Engine engine = new Engine(500, 6300);
+
+            Car newCar = new Car("Lamborghini", "Urus", 2010, 250, 9, engine, tires);
         }
     }
 }
