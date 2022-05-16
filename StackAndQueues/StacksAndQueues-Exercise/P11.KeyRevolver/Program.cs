@@ -26,9 +26,6 @@ namespace P11.KeyRevolver
 
             while (locks.Count > 0 && bullets.Count > 0)
             {
-                bullets.Pop();
-                bulletCounter++;
-
                 if (bullets.Peek() <= locks.Peek())
                 {
                     locks.Dequeue();
@@ -40,7 +37,11 @@ namespace P11.KeyRevolver
                     Console.WriteLine("Ping!");
                 }
 
-                if (bullets.Count > 0 && bulletCounter == sizeOfTheGunBarrel)
+                bullets.Pop();
+                bulletCounter++;
+
+                if (bullets.Count > 0 &&
+                    bulletCounter == sizeOfTheGunBarrel)
                 {
                     bulletCounter = 0;
                     Console.WriteLine("Reloading!");
