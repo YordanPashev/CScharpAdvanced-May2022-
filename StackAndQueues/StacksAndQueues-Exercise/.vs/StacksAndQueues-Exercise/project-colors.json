@@ -55,7 +55,17 @@
       "ProjectGuid": "78e3a39d-4efb-439e-888a-f3af95de2aec",
       "DisplayName": "P12.CupsAndBottles",
       "ColorIndex": 9
+    },
+    "887fb7a8-cdd4-4381-a097-37b1d9c16940": {
+      "ProjectGuid": "887fb7a8-cdd4-4381-a097-37b1d9c16940",
+      "DisplayName": "P02.BasicQueueOperations",
+      "ColorIndex": 10
+    },
+    "85479a87-d362-48b3-975b-015343ea650f": {
+      "ProjectGuid": "85479a87-d362-48b3-975b-015343ea650f",
+      "DisplayName": "P03.MaximumAndMinimumElement",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 12
 }
