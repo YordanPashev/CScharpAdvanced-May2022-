@@ -11,3 +11,7 @@
 
 [**5. Functional Programming**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/FunctionalProgramming)
 
+[**6. Defining Classes**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/DefiningClasses)
+
+
+
