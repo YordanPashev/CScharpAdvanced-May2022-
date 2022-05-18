@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 
 namespace CustomDoublyLinkedList
 {
@@ -9,7 +9,16 @@ namespace CustomDoublyLinkedList
         {
             DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
 
+            doublyLinkedList.AddFirst(2);
+            doublyLinkedList.AddLast(1);
+            doublyLinkedList.RemoveLast();
+            doublyLinkedList.RemoveFirst();
+            doublyLinkedList.RemoveFirst();
+
+
             doublyLinkedList.ForEach(x => Console.WriteLine(x));
+
+            int[] arr = doublyLinkedList.ToArray();
         }
     }
 }
