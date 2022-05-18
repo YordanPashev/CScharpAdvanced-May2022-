@@ -21,6 +21,7 @@ namespace CustomDoublyLinkedList
             public ListNode PreviousNode { get; set; }
 
         }
+        
         private ListNode head;
         private ListNode tail;
 
@@ -59,6 +60,7 @@ namespace CustomDoublyLinkedList
             }
             this.Count++;
         }
+        
         public int RemoveFirst()
         {
             if (this.Count == 0)
@@ -108,6 +110,7 @@ namespace CustomDoublyLinkedList
 
             return lastElement;
         }
+        
         public void ForEach(Action<int> action)
         {
             var currentNode = this.head;
