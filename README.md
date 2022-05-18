@@ -13,5 +13,8 @@
 
 [**6. Defining Classes**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/DefiningClasses)
 
+[**7. Implementing Linked List**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/ImplementingLinkedList)
+
+
 
 
