@@ -1,4 +1,6 @@
-﻿namespace CustomDataStructures
+﻿using System;
+
+namespace CustomDataStructures
 {
     public class GustomList
     {
@@ -9,6 +11,8 @@
             elements = new int[2];
 
         }
+
+        public int Count { get {return internalCounter; } }
 
         public void Add(int element)
         {
@@ -42,6 +46,11 @@
 
         public int RemoveAt(int index)
         {
+            if (index < 0 || index > internalCounter - 1)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+
             int elementToRemove = elements[index];
 
             for (int i = index; i < internalCounter - 1; i++)
@@ -52,6 +61,32 @@
             internalCounter--;
 
             return elementToRemove;
+        }
+
+        public bool Contains(int element)
+        {
+            for (int i = 0; i < internalCounter; i++)
+            {
+                if (elements[i]== element)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        public void Swap(int firstIndex, int secondIndex)
+        {
+            if (firstIndex < 0 || firstIndex > internalCounter - 1 ||
+                secondIndex < 0 || secondIndex > internalCounter - 1)
+            {
+                throw new ArgumentOutOfRangeException();
+            }
+            int firstElement = elements[firstIndex];
+            elements[firstIndex] = elements[secondIndex];
+            elements[secondIndex] = firstElement;
+
         }
     }
 }

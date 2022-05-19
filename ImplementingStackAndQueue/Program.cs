@@ -14,8 +14,7 @@ namespace CustomDataStructures
             gustonList.Add(4);
             gustonList.Add(5);
 
-            gustonList.RemoveAt(1);
-            gustonList.Shrink();
+            gustonList.Swap(0, 4);
         }
     }
 }
