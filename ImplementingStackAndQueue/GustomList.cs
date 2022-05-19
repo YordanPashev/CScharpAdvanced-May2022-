@@ -13,7 +13,18 @@ namespace CustomDataStructures
         }
 
         public int Count { get {return internalCounter; } }
+        public int this[int i]
+        {
+            get
+            {
+                return elements[i];
+            }
 
+            set
+            {
+                elements[i] = value;
+            }
+        }
         public void Add(int element)
         {
             if (elements.Length == internalCounter)
@@ -83,10 +94,10 @@ namespace CustomDataStructures
             {
                 throw new ArgumentOutOfRangeException();
             }
+
             int firstElement = elements[firstIndex];
             elements[firstIndex] = elements[secondIndex];
             elements[secondIndex] = firstElement;
-
         }
     }
 }
