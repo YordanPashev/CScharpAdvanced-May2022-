@@ -15,6 +15,5 @@
 
 [**7. Implementing Linked List**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/ImplementingLinkedList)
 
-
-
+[**8. Implementing Stack and Queue**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/ImplementingStackAndQueue)
 
