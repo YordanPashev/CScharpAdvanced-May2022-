@@ -7,11 +7,28 @@ namespace CustomDataStructures
     {
         static void Main(string[] args)
         {
-            MyStack<int> stack = new MyStack<int>();
-            stack.Push(1);
-            stack.Push(2);
-            stack.Push(3);
-            Console.WriteLine(stack.Peek());
+            MyQueue<int> queue = new MyQueue<int>();
+            queue.Enqueue(5);
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            queue.Enqueue(4);
+
+            queue.Dequeue();
+
+            queue.Peek();
+
+            queue.Clear();
+
+            queue.Enqueue(2);
+
+            queue.Enqueue(1);
+
+            queue.Dequeue();
+            queue.Dequeue();
+            queue.Dequeue();
+
+            queue.ForEach(x => Console.WriteLine(x));          
         }
     }
 }
