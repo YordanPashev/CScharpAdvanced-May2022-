@@ -7,15 +7,11 @@ namespace CustomDataStructures
     {
         static void Main(string[] args)
         {
-            GustomList gustomList = new GustomList();
-            gustomList.Add(1);
-            gustomList.Add(2);
-            gustomList.Add(3);
-            gustomList.Add(4);
-            gustomList.Add(5);
-
-            gustomList[0] = 150;
-            Console.WriteLine(gustomList[0]);
+            MyStack<int> stack = new MyStack<int>();
+            stack.Push(1);
+            stack.Push(2);
+            stack.Push(3);
+            Console.WriteLine(stack.Peek());
         }
     }
 }
