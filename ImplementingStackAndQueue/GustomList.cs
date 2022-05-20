@@ -18,6 +18,10 @@ namespace CustomDataStructures
         {
             get
             {
+                if (i > internalCounter - 1 || i < 0)
+                {
+                    throw new IndexOutOfRangeException();
+                }
                 return elements[i];
             }
 
@@ -61,7 +65,7 @@ namespace CustomDataStructures
         {
             if (index < 0 || index > internalCounter - 1)
             {
-                throw new ArgumentOutOfRangeException();
+                throw new IndexOutOfRangeException();
             }
 
             int elementToRemove = elements[index];
