@@ -6,10 +6,10 @@ namespace CustomDataStructures
     {
         private int[] elements;
         private int internalCounter;
+        
         public GustomList()
         {
             elements = new int[2];
-
         }
 
         public int Count { get {return internalCounter; } }
@@ -68,7 +68,7 @@ namespace CustomDataStructures
         {
             for (int i = 0; i < internalCounter; i++)
             {
-                if (elements[i]== element)
+                if (elements[i] == element)
                 {
                     return true;
                 }
