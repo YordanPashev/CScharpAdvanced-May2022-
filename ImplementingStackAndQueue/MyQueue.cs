@@ -6,6 +6,7 @@ namespace CustomDataStructures
     {
         private const int DefaultCapacity = 4;
         private T[] elements;
+        
         public MyQueue()
         {
             elements = new T[DefaultCapacity];
