@@ -18,32 +18,20 @@ namespace CustomDataStructures
         {
             get
             {
-                if (i > internalCounter - 1 || i < 0)
-                {
-                    throw new IndexOutOfRangeException();
-                }
+                CheckIsInRange(i);
                 return elements[i];
             }
 
             set
             {
+                CheckIsInRange(i);
                 elements[i] = value;
             }
         }
 
         public void Add(int element)
         {
-            if (elements.Length == internalCounter)
-            {
-                int[] copyArray = new int[elements.Length * 2];
-
-                for (int i = 0; i < elements.Length; i++)
-                {
-                    copyArray[i] = elements[i];
-                }
-
-                elements = copyArray; 
-            }
+            Risize();
 
             elements[internalCounter] = element;
             internalCounter++;
@@ -63,19 +51,15 @@ namespace CustomDataStructures
 
         public int RemoveAt(int index)
         {
-            if (index < 0 || index > internalCounter - 1)
-            {
-                throw new IndexOutOfRangeException();
-            }
+            CheckIsInRange(index);
 
             int elementToRemove = elements[index];
+            internalCounter--;
 
-            for (int i = index; i < internalCounter - 1; i++)
+            for (int i = index; i < internalCounter; i++)
             {
                 elements[i] = elements[i + 1];
             }
-
-            internalCounter--;
 
             return elementToRemove;
         }
@@ -95,15 +79,35 @@ namespace CustomDataStructures
 
         public void Swap(int firstIndex, int secondIndex)
         {
-            if (firstIndex < 0 || firstIndex > internalCounter - 1 ||
-                secondIndex < 0 || secondIndex > internalCounter - 1)
-            {
-                throw new ArgumentOutOfRangeException();
-            }
+            CheckIsInRange(firstIndex);
+            CheckIsInRange(secondIndex);
 
             int firstElement = elements[firstIndex];
             elements[firstIndex] = elements[secondIndex];
             elements[secondIndex] = firstElement;
+        }
+
+        private void Risize()
+        {
+            if (elements.Length == internalCounter)
+            {
+                int[] copyArray = new int[elements.Length * 2];
+
+                for (int i = 0; i < elements.Length; i++)
+                {
+                    copyArray[i] = elements[i];
+                }
+
+                elements = copyArray;
+            }
+        }
+
+        private void CheckIsInRange(int i)
+        {
+            if (i > internalCounter - 1 || i < 0)
+            {
+                throw new NotImplementedException();
+            }
         }
     }
 }
