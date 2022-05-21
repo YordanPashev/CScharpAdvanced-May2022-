@@ -17,6 +17,6 @@
 
 [**8. Implementing Stack and Queue**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/ImplementingStackAndQueue)
 
-[**9. Generics*](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/Generics)
+[**9. Generics**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/Generics)
 
 
