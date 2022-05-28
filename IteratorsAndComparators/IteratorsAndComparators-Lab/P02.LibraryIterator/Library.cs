@@ -30,14 +30,14 @@ namespace IteratorsAndComparators
 
             public LibraryIterator(List<Book> books)
             {
-                this.Reset();
+                currentIndex = -1;
                 this.books = new List<Book>(books);
             }
             public void Dispose() { }
 
             public bool MoveNext() => ++this.currentIndex < this.books.Count;
 
-            public void Reset() => this.currentIndex -= 1;
+            public void Reset() { }
 
             public Book Current => this.books[currentIndex];
 

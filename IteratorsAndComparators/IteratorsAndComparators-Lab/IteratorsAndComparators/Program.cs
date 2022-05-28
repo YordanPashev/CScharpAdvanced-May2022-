@@ -13,9 +13,9 @@ namespace IteratorsAndComparators
             Library libraryOne = new Library();
             Library libraryTwo = new Library(bookOne, bookTwo, bookThree);
 
-            foreach (string book in libraryTwo)
+            foreach (Book book in libraryTwo)
             {
-                Console.WriteLine(book);
+                Console.WriteLine(book.Title);
             }
         }
     }
