@@ -21,5 +21,10 @@
 
 [**10. Iterators and Comparators**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/IteratorsAndComparators)
 
+[**11. Exam Preparation**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/11.ExamPreparation)
+
+
+
+
 
 
