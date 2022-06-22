@@ -76,7 +76,7 @@ namespace P01.BakeryShop
                                     .OrderByDescending(p => p.Value)
                                     .ThenBy(p => p.Key))
             {
-                if (product.Value == 0)
+                if (product.Value > 0)
                 {
                     Console.WriteLine($"{product.Key}: {product.Value}");
                 }
