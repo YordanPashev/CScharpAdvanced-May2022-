@@ -23,6 +23,9 @@
 
 [**11. Exam Preparation**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/11.ExamPreparation)
 
+[**11. Basic Algorithms**](https://github.com/YordanPashev/CSharpAdvanced-May2022/tree/main/12.BasicAlgorithms)
+
+
 
 
 
